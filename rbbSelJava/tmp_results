@@ -1,7 +1,7 @@
 rm -f *.class
-javac -cp :./lib/.*:./jar_sel_standalone_server/selenium-server-standalone-3.5.3.jar:./openqa/client-combined-3.5.3-nodeps.jar:. GoogleHelloWorld.java
+javac -cp :./lib/.*:./jar_sel_standalone_server/selenium-server-standalone-3.5.3.jar:./openqa/client-combined-3.5.3-nodeps.jar:. rbbSel.java
 ## javac -cp :./lib/.*:./jar_sel_standalone_server/selenium-server-standalone-3.5.3.jar:./openqa/client-combined-3.5.3-nodeps.jar:. GoogleHelloWorld.java
-java -cp :./lib/.*:./jar_sel_standalone_server/selenium-server-standalone-3.5.3.jar:./openqa/client-combined-3.5.3-nodeps.jar:. GoogleHelloWorld
+java -cp :./lib/.*:./jar_sel_standalone_server/selenium-server-standalone-3.5.3.jar:./openqa/client-combined-3.5.3-nodeps.jar:. rbbSel
 starting selenium web driver
 actualTitle: rbb|24 – Nachrichten aus Berlin und Brandenburg | rbb Rundfunk Berlin-Brandenburg
 Test Passed!
