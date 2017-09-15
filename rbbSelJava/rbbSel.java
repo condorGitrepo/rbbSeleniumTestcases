@@ -4,7 +4,7 @@
 import org.openqa.selenium.firefox.FirefoxDriver;  
 import org.openqa.selenium.WebDriver;  
 
-public class GoogleHelloWorld {  
+public class rbbSel {  
 
 	/* Global static variable within this class */
 	public static WebDriver driver;  

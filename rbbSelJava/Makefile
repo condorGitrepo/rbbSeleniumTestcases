@@ -9,7 +9,7 @@ JAVA=java
 JAVAC=javac
 JAVAOPTS=-cp :./lib/.*:./jar_sel_standalone_server/selenium-server-standalone-3.5.3.jar:./openqa/client-combined-3.5.3-nodeps.jar:.
 
-MAINNAME=GoogleHelloWorld
+MAINNAME=rbbSel
 
 #YMLTAG = role.ctags
 #CTAGS_HOME = /home/mge/.vim/ctags/
