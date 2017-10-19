@@ -33,15 +33,26 @@ public class rbbSel {
 		
 		// API: Package Selenium -> Interface webdriver -> Methode getTitle
 		String actualTitle = actualTitle=driver.getTitle();
-		//String expectedTitle = "Welcome: Mercury Tours for mge";
-		String expectedTitle = "rbb|24 – Nachrichten aus Berlin und Brandenburg | rbb Rundfunk Berlin-Brandenburg";
+		//String expectedTitle = "rbb|24 – Nachrichten aus Berlin und Brandenburg | rbb Rundfunk Berlin-Brandenburg";
+		String expectedTitle = "rbb|24 | rbb|24 - Nachrichten aus Berlin und Brandenburg";
 
-		System.out.println("actualTitle: "+ actualTitle);
 		// Vergleiche Titel mit zu erwartenden Titel	
 		if (actualTitle.contentEquals(expectedTitle)){
+            System.out.println("+++++++++++++++++++++++++++");
+            System.out.println("actualTitle: " + actualTitle);
+            System.out.println("---------------------------");
+            System.out.println("expectedTitle: " + expectedTitle);
+            System.out.println("---------------------------");
             System.out.println("Test Passed!");
+            System.out.println("+++++++++++++++++++++++++++");
         } else {
+            System.out.println("+++++++++++++++++++++++++++");
+            System.out.println("actualTitle: " + actualTitle);
+            System.out.println("---------------------------");
+            System.out.println("expectedTitle: " + expectedTitle);
+            System.out.println("---------------------------");
             System.out.println("Test Failed");
+            System.out.println("+++++++++++++++++++++++++++");
         }	
 
 		// -----------------------------------
